@@ -63,3 +63,8 @@ p = v_par;
 % 
 save('pqfile.txt','p','-ascii')
 type('pqfile.txt')
+
+% para graficar el diagrama de barras con las posiciones pares encontradas se hace uso de la funcion bar()
+%   Sintaxis
+%    bar(y) - crea un gráfico de barras con una barra para cada elemento en y. 
+%    bar(x,y) - dibuja las barras en las ubicaciones especificadas por x.
